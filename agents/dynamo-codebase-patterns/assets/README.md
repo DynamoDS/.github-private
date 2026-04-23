@@ -2,7 +2,7 @@
 
 This folder is owned and maintained by the **Dynamo Codebase Patterns** agent (`agents/dynamo-codebase-patterns.agent.md`).
 
-Do not edit pattern files manually without also updating the agent, and do not add patterns here that have not passed the agent's three-question filter.
+Do not edit pattern files manually without also updating the agent, and do not add patterns here that have not passed the agent's four-question filter.
 
 ## Status vocabulary
 

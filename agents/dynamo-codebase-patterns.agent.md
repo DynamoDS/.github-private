@@ -31,7 +31,7 @@ When asked to scan a subsystem:
 
 1. Focus on one directory at a time — not the whole repo
 2. Look for patterns repeated across multiple files with consistent structure
-3. Apply the three-question filter to each candidate
+3. Apply the four-question filter to each candidate
 4. Propose at most 3–5 candidates per scan session
 5. Write each candidate as a `candidate` status pattern file in `agents/dynamo-codebase-patterns/assets/`
 6. A candidate becomes `confirmed` only after it has been validated against 3 or more real file examples
