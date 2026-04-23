@@ -17,10 +17,10 @@ UI content can include:
 
 **Simplify complexity without losing meaning.**
 
-**Why it matters**  
+**Why it matters**
 Clarity is more important than brevity. Clear and concise content reduces cognitive load and frustration, and helps people complete tasks faster.
 
-**What it drives**  
+**What it drives**
 Ease of use
 
 **How to apply it**
@@ -33,10 +33,10 @@ Ease of use
 
 **Guide users toward action and success.**
 
-**Why it matters**  
+**Why it matters**
 Usable is more important than being technically precise. Content should help people complete tasks efficiently.
 
-**What it drives**  
+**What it drives**
 Speed
 
 **How to apply it**
@@ -50,10 +50,10 @@ Speed
 
 **Be transparent and show empathy for people's goals and frustrations.**
 
-**Why it matters**  
+**Why it matters**
 Long term trust wins over short-term gain. Transparent communication reduces friction and builds positive relationships with people.
 
-**What it drives**  
+**What it drives**
 Trust
 
 **How to apply it**
@@ -85,7 +85,7 @@ Trust
 - Speak directly to users using "you" and "your"
 - Minimize first-person usage unless taking ownership or making a clear commitment
 
-**Exception for passive voice**  
+**Exception for passive voice**
 Use passive voice to quickly summarize an event when needed.
 
 ### 5. Trust the UX

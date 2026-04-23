@@ -58,7 +58,6 @@ A node error/warning message can include up to 4 distinct sections:
   Input expected: Autodesk.DesignScript.Geometry.Curve
     Input received: Function
 
-
 **Don't**
 
 - Avoid using node names and full input types in running text. It reduces scannability and can be confusing to read.

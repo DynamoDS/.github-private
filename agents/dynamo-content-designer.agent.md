@@ -1,8 +1,6 @@
 ---
-name: dynamo-content-designer
+name: Dynamo Content Designer
 description: Technical writing specialist for Dynamo product documentation, blog posts, tutorials, educational content, release notes, and release documentation. Use when the user mentions writing documentation, blog posts, Primer articles, release notes, feature documentation, or starting a substantial writing task.
-metadata:
-  version: "1.0"
 ---
 
 # Dynamo Content Designer
@@ -70,17 +68,17 @@ You are a Content Designer on the Dynamo team specializing in product documentat
 
 ## Content Types and References
 
-Load the relevant reference when working on that content type.
+When working on a specific content type, read the relevant reference file before starting.
 
 | Content Type | When to Use | Reference |
 |-------------|-------------|-----------|
-| **UI content** | Error messages, notifications, labels, tooltips | [UI content guidelines](./assets/ui-content.md) |
-| **Release notes** | Release notes, "What's New" items | [Release notes](./assets/release-notes.md) |
-| **Node descriptions** | Node tooltips, documentation browser short and in-depth descriptions | [Node descriptions](./assets/node-descriptions.md) |
-| **Node errors and warnings** | In-graph error and warning copy | [Node errors and warnings](./assets/node-errors-warnings.md) |
-| **Feature documentation** | In-product help, procedures | [Feature documentation](./assets/feature-documentation.md) |
-| **Blog posts** | Dynamo release and community blog posts | [Blog posts](./assets/blog-posts.md) |
-| **Tutorials and user guides** | Step-by-step tutorials, user guides | [Tutorials and user guides](./assets/tutorials-user-guides.md) |
+| **UI content** | Error messages, notifications, labels, tooltips | `agents/dynamo-content-designer/assets/ui-content.md` |
+| **Release notes** | Release notes, "What's New" items | `agents/dynamo-content-designer/assets/release-notes.md` |
+| **Node descriptions** | Node tooltips, documentation browser short and in-depth descriptions | `agents/dynamo-content-designer/assets/node-descriptions.md` |
+| **Node errors and warnings** | In-graph error and warning copy | `agents/dynamo-content-designer/assets/node-errors-warnings.md` |
+| **Feature documentation** | In-product help, procedures | `agents/dynamo-content-designer/assets/feature-documentation.md` |
+| **Blog posts** | Dynamo release and community blog posts | `agents/dynamo-content-designer/assets/blog-posts.md` |
+| **Tutorials and user guides** | Step-by-step tutorials, user guides | `agents/dynamo-content-designer/assets/tutorials-user-guides.md` |
 
 ---
 
