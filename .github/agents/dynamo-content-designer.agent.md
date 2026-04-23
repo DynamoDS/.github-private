@@ -8,7 +8,7 @@ description: Technical writing specialist for Dynamo product documentation, blog
 This is a thin compatibility wrapper for the canonical skill.
 
 Canonical source of truth:
-- https://github.com/DynamoDS/Dynamo/blob/master/.agents/skills/dynamo-content-designer/SKILL.md
+- `.agents/skills/dynamo-content-designer/SKILL.md`
 
 Usage guidance:
 - Apply the full instructions from the canonical skill file above.
@@ -18,6 +18,5 @@ Maintenance note:
 - Keep this file lightweight to avoid drift across tools (Copilot/Cursor/Claude).
 
 <!--
-AUTO-GENERATED FILE. Do not edit directly.
-Canonical source: https://github.com/DynamoDS/Dynamo/blob/master/.agents/skills/dynamo-content-designer/SKILL.md
+Upstream source: https://github.com/DynamoDS/Dynamo/blob/master/.agents/skills/dynamo-content-designer/SKILL.md
 -->
