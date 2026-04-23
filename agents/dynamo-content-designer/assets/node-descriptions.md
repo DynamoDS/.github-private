@@ -52,9 +52,9 @@ Since in-depth descriptions appear in contexts that are not space constrained, t
 
 "Comprehensively" here means that after reading the in-depth description, the user should be able to:
 
-* understand what the node does
-* if they wish, use it in their graph without running into issues resulting from insufficient information
-* understand any limitations involving the node or its inputs/outputs, as well as any options they have regarding its usage, such as wiring a port vs. leaving it as default
+- understand what the node does
+- if they wish, use it in their graph without running into issues resulting from insufficient information
+- understand any limitations involving the node or its inputs/outputs, as well as any options they have regarding its usage, such as wiring a port vs. leaving it as default
 
 However, most users have no need for the advanced technical details applicable to using the node in any other uncommon or immediately behind the nodes operational or graph. Unless there's a compelling reason to include information at this expert level, omit it.
 
@@ -64,12 +64,12 @@ However, most users have no need for the advanced technical details applicable t
 
 In-depth help could include:
 
-* A more detailed description of the node and how it works
-* Thorough explanation of inputs and outputs
-* Different ways of using the node, such as supplying an input vs. using the default
-* Do's and Don'ts, such as any restrictions concerning input data
-* Use cases and practical examples
-* A description of the example file
+- A more detailed description of the node and how it works
+- Thorough explanation of inputs and outputs
+- Different ways of using the node, such as supplying an input vs. using the default
+- Do's and Don'ts, such as any restrictions concerning input data
+- Use cases and practical examples
+- A description of the example file
 
 Describe what the node does in sufficient detail. Don't simply restate or rephrase the node description. Recapping the node description is fine if you also provide additional information, but avoid repeating the node description verbatim to ensure that each part of the node documentation provides useful content to users. Avoid walls of text by using short paragraphs.
 
@@ -93,34 +93,34 @@ In-depth help poses unique challenges for localization. Adhere to these guidelin
 
 ### ✅ Do's
 
-* **Word choice:** Use descriptive, clear, and concise language. As much as possible, imagine you are explaining the issue to a non-technical friend.
+- **Word choice:** Use descriptive, clear, and concise language. As much as possible, imagine you are explaining the issue to a non-technical friend.
   **Example:** `List.Flatten` returns a one-dimensional list (a list with a single level) from a multi-dimensional list (a list with at least one nested list).
 
-* **Formatting:** To minimize confusion for translators, format node names, inputs, and outputs as code by using Markdown backticks (`` ` ``). NOTE: These backticks aren't visible to the user in Dynamo, they are only used in this example in this document.
+- **Formatting:** To minimize confusion for translators, format node names, inputs, and outputs as code by using Markdown backticks (`` ` ``). NOTE: These backticks aren't visible to the user in Dynamo, they are only used in this example in this document.
   **Example:** `List.TrueForAll` returns a Boolean value showing if the condition in the `QueryFunction` input is True for all items on the list.
 
-* **Node names:** Begin the in-depth help with the node name, and state it in full, including library name, node name, and any parentheticals. On subsequent mentions, you may drop the parentheticals.
+- **Node names:** Begin the in-depth help with the node name, and state it in full, including library name, node name, and any parentheticals. On subsequent mentions, you may drop the parentheticals.
   **Example:** `Geometry.Rotate` (origin, axis, degrees) rotates an input geometry around a base plane by a defined degree.
 
-* **Tense:** Use present tense when describing node functionality.
+- **Tense:** Use present tense when describing node functionality.
   **Example:** `List.Sublists` takes an input list and returns a series of sublists based on the input range and offset.
 
-* **Numbers:** When describing example files, numerals expressed as digits can improve clarity, especially when several numbers are used in close succession.
+- **Numbers:** When describing example files, numerals expressed as digits can improve clarity, especially when several numbers are used in close succession.
   **Example:** In the example below, a simple loop is created to add 10, starting with 1, until the result is larger than 100.
 
 ### ❌ Don'ts
 
-* **Word choice:** Don't use jargon or highly advanced technical terms without explaining them. Technical details, where needed, should also be written with non-technical users in mind.
+- **Word choice:** Don't use jargon or highly advanced technical terms without explaining them. Technical details, where needed, should also be written with non-technical users in mind.
   **Bad example:** Knots: The knot vector should be a non-decreasing sequence. Interior knot multiplicity should be no larger than degree + 1 at the start/end knot and degree at an internal knot (this allows curves with G1 discontinuities to be represented).
 
-* **Formatting:** Don't format node names, inputs, and outputs as regular text. Add single backticks `` `like this` `` around node names to format them as code.
+- **Formatting:** Don't format node names, inputs, and outputs as regular text. Add single backticks `` `like this` `` around node names to format them as code.
   **Bad example:** List.TrueForAll returns a Boolean value showing if the condition in the QueryFunction input is True for all items on the list.
 
-* **Node names:** Don't add or remove spaces, periods, or any other punctuation to/from node names. Don't only use part of a node name.
+- **Node names:** Don't add or remove spaces, periods, or any other punctuation to/from node names. Don't only use part of a node name.
   **Bad example:** `Geometry Rotate` rotates an input geometry around a base plane by a defined degree.
 
-* **Tense:** Don't use future tense (or any tense other than present, unless there's a reason to do so).
+- **Tense:** Don't use future tense (or any tense other than present, unless there's a reason to do so).
   **Bad example:** `List.Sublists` will take an input list and return a series of sublists based on the input range and offset.
 
-* **Numbers:** Don't spell out numbers when describing example files, unless the numbers are used to describe the graph layout, for example, "two nodes."
+- **Numbers:** Don't spell out numbers when describing example files, unless the numbers are used to describe the graph layout, for example, "two nodes."
   **Bad example:** In the example below, a simple loop is created to add ten, starting with one, until the result is larger than one hundred.

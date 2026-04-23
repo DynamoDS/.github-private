@@ -1,6 +1,6 @@
 # Feature Documentation
 
-This includes feature documentation for Revit help and the Dynamo Primer. For Revit help, follow all guidance from https://styleguide.autodesk.com/in-product-help/#writing-help-content 
+This includes feature documentation for Revit help and the Dynamo Primer. For Revit help, follow all guidance from <https://styleguide.autodesk.com/in-product-help/#writing-help-content>
 
 ## Tone guidance
 
