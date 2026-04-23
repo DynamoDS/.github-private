@@ -94,16 +94,16 @@ In-depth help poses unique challenges for localization. Adhere to these guidelin
 ### ✅ Do's
 
 * **Word choice:** Use descriptive, clear, and concise language. As much as possible, imagine you are explaining the issue to a non-technical friend.
-  **Example:** 'List.Flatten' returns a one-dimensional list (a list with a single level) from a multi-dimensional list (a list with at least one nested list).
+  **Example:** `List.Flatten` returns a one-dimensional list (a list with a single level) from a multi-dimensional list (a list with at least one nested list).
 
-* **Formatting:** To minimize confusion for translators, format node names, inputs, and outputs as code by using Markdown backticks ('). NOTE: These backticks aren't visible to the user in Dynamo, they are only used in this example in this document.
-  **Example:** 'List.TrueForAll' returns a Boolean value showing if the condition in the 'QueryFunction' input is True for all items on the list.
+* **Formatting:** To minimize confusion for translators, format node names, inputs, and outputs as code by using Markdown backticks (`` ` ``). NOTE: These backticks aren't visible to the user in Dynamo, they are only used in this example in this document.
+  **Example:** `List.TrueForAll` returns a Boolean value showing if the condition in the `QueryFunction` input is True for all items on the list.
 
 * **Node names:** Begin the in-depth help with the node name, and state it in full, including library name, node name, and any parentheticals. On subsequent mentions, you may drop the parentheticals.
-  **Example:** 'Geometry.Rotate' (origin, axis, degrees) rotates an input geometry around a base plane by a defined degree.
+  **Example:** `Geometry.Rotate` (origin, axis, degrees) rotates an input geometry around a base plane by a defined degree.
 
 * **Tense:** Use present tense when describing node functionality.
-  **Example:** 'List.Sublists' takes an input list and returns a series of sublists based on the input range and offset.
+  **Example:** `List.Sublists` takes an input list and returns a series of sublists based on the input range and offset.
 
 * **Numbers:** When describing example files, numerals expressed as digits can improve clarity, especially when several numbers are used in close succession.
   **Example:** In the example below, a simple loop is created to add 10, starting with 1, until the result is larger than 100.
@@ -113,14 +113,14 @@ In-depth help poses unique challenges for localization. Adhere to these guidelin
 * **Word choice:** Don't use jargon or highly advanced technical terms without explaining them. Technical details, where needed, should also be written with non-technical users in mind.
   **Bad example:** Knots: The knot vector should be a non-decreasing sequence. Interior knot multiplicity should be no larger than degree + 1 at the start/end knot and degree at an internal knot (this allows curves with G1 discontinuities to be represented).
 
-* **Formatting:** Don't format node names, inputs, and outputs as regular text. Add single backticks 'like this' around node names to format them as code.
+* **Formatting:** Don't format node names, inputs, and outputs as regular text. Add single backticks `` `like this` `` around node names to format them as code.
   **Bad example:** List.TrueForAll returns a Boolean value showing if the condition in the QueryFunction input is True for all items on the list.
 
 * **Node names:** Don't add or remove spaces, periods, or any other punctuation to/from node names. Don't only use part of a node name.
-  **Bad example:** 'Geometry Rotate' rotates an input geometry around a base plane by a defined degree.
+  **Bad example:** `Geometry Rotate` rotates an input geometry around a base plane by a defined degree.
 
 * **Tense:** Don't use future tense (or any tense other than present, unless there's a reason to do so).
-  **Bad example:** 'List.Sublists' will take an input list and return a series of sublists based on the input range and offset.
+  **Bad example:** `List.Sublists` will take an input list and return a series of sublists based on the input range and offset.
 
 * **Numbers:** Don't spell out numbers when describing example files, unless the numbers are used to describe the graph layout, for example, "two nodes."
   **Bad example:** In the example below, a simple loop is created to add ten, starting with one, until the result is larger than one hundred.
