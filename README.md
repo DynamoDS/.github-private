@@ -19,7 +19,10 @@ This is the DynamoDS organization repository for [Copilot custom agents](https:/
 
 | Agent | Description |
 |-------|-------------|
+| [Dynamo Codebase Patterns](agents/dynamo-codebase-patterns.agent.md) | Discovers and documents non-obvious Dynamo-specific implementation patterns and reviews changes for consistency with confirmed patterns. |
 | [Dynamo Content Designer](agents/dynamo-content-designer.agent.md) | Technical writing specialist for Dynamo product documentation, blog posts, tutorials, release notes, and educational content. |
+| [Dynamo Ecosystem Reviewer](agents/dynamo-ecosystem-reviewer.agent.md) | Reviews code changes for compatibility with broader Dynamo ecosystem constraints such as service/headless compatibility and Revit thread safety. |
+| [WebView Component Scaffold](agents/webview-component-scaffold.agent.md) | Scaffolds Dynamo package repositories for WebView2-based view extensions following the Switchboard architecture pattern. |
 
 ## Adding or updating an agent
 
